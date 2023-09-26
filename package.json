@@ -1,0 +1,15 @@
+{
+  "name": "try-bunjs",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts",
+    "build": "bun build index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "1.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
